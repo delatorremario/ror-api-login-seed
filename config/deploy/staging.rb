@@ -1,10 +1,10 @@
 
-server '54.89.54.206', port: 22, user: 'ubuntu', roles: [:web, :app, :db]
+server 'YOUR IP SERVER', port: 22, user: 'ubuntu', roles: [:web, :app, :db]
 
 set :branch, 'master'
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, '/srv/http/www/senador/api'
+set :deploy_to, '/srv/http/www/MIAPPNAME/api'
 
 # server-based syntax
 # ======================
